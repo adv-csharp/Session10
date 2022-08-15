@@ -9,4 +9,18 @@ RPC // Remote Protocol Call
 			XML
 
 
-REST
+RESTfull
+
+	method	url
+	get		/product		-> list products
+	post	/product		-> add product
+	get		/product/1		-> data product 1 
+	put		/product/1		-> replace product 1
+	patch	/product/1		-> update product 1
+	delete	/product/1		-> delete product 1
+
+	get		/product/1/comments
+	post	/product/1/comments
+
+
+	OpenAPI / Swagger
