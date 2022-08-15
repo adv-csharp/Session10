@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPServer", "SOAPServer\SO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestClient", "RestClient\RestClient.csproj", "{F885545C-245B-4703-AA58-94B86C5B944B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI", "RestAPI\RestAPI.csproj", "{8DB732F0-6EFF-4093-AB2C-112AE998911F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{F885545C-245B-4703-AA58-94B86C5B944B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F885545C-245B-4703-AA58-94B86C5B944B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F885545C-245B-4703-AA58-94B86C5B944B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB732F0-6EFF-4093-AB2C-112AE998911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB732F0-6EFF-4093-AB2C-112AE998911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB732F0-6EFF-4093-AB2C-112AE998911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB732F0-6EFF-4093-AB2C-112AE998911F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

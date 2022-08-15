@@ -24,3 +24,10 @@ RESTfull
 
 
 	OpenAPI / Swagger
+
+
+
+	get	/weatherForcats
+
+
+	get		/product/x/y
