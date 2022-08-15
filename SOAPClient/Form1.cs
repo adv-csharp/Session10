@@ -24,5 +24,12 @@ namespace SOAPClient
             var result  = await client.MultiplyAsync(10, 5);
             MessageBox.Show(result.ToString());
         }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            var client = new ServiceReference2.WebServiceSMSSoapClient();
+            var resp = await client.SendSMSAsync("salam", "2131");
+            MessageBox.Show(resp.Body.SendSMSResult);
+        }
     }
 }
