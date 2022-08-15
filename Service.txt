@@ -1,0 +1,12 @@
+Service / Comnication between programs
+
+Scoket
+	//?
+
+RPC // Remote Protocol Call
+	SOAP - Simple Object Access Protocol
+		WSDL - Web Sevice definition language
+			XML
+
+
+REST
